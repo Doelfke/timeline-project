@@ -10,5 +10,5 @@ There's a bug I didn't get to fixing. Styling is minimal right now. Some optimiz
 **How you made your design decisions. For example, if you looked at other timelines for inspiration, please note that.**
 It was kind of hard to find an example that didn't look like a gantt chart, which would have taken up more space. But I realized it's really just a calendar view, so I looked at what iOS does for multi-day views on their calendar.
 
-**How you would test this if you had more time.**x
+**How you would test this if you had more time.**
 I isolated most of the logic to a utils file and broke it down into steps, so each one can be tested using unit tests pretty easily.
