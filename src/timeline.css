@@ -1,0 +1,29 @@
+.timeline {
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding-bottom: 48px;
+}
+
+.timelineTrack {
+    margin-bottom: 8px;
+}
+
+.timelineSegment + .timelineSegment {
+    border-left-color: black;
+}
+
+.blankTimelineEvent {
+    display: inline-block;
+    width: 93px;
+}
+
+.timelineEvent {
+    vertical-align: top;
+    display: inline-block;
+    width: 93px;
+    text-align: center;
+    white-space: wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+}
